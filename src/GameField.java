@@ -40,7 +40,7 @@ public class GameField extends JPanel implements ActionListener {
             y[i] = 48;
         }
 //        create Timer
-        timer = new Timer(250,this);
+        timer = new Timer(100,this);
         timer.start();
         createApple();
     }
